@@ -1,0 +1,47 @@
+table.unstyledTable {
+    background-color: #222222;
+    width: 100%;
+    text-align: center;
+}
+
+table.unstyledTable td, table.unstyledTable th {
+    border: 1px solid #434343;
+}
+
+table.unstyledTable tbody td {
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+table.unstyledTable thead {
+    background: #393939;
+}
+
+table.unstyledTable thead th {
+    font-size: 19px;
+    font-weight: normal;
+    color: #FF0000;
+    text-align: center;
+}
+
+.img-center {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+}
+a.punch:hover {
+    color: #ffffff;
+}

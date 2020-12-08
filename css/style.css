@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+    font-family: 'Nunito';
+}
+
+html, body {
+    font-size: 15px;
+    background-color: #141414 !important;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.searchbar {
+    margin: auto;
+    margin-top: 20px;
+    /*margin-right: 9rem !important;*/
+    /*margin-left: 9rem !important;*/
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.search_input:hover {
+    cursor: text !important;
+}
+
+.ft-10 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.search_input {
+    color: #d32f2f;
+    border: 0;
+    outline: 0;
+    background: none;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    padding: 0 10px;
+    width: 400px;
+    caret-color: #d32f2f;
+}
+
+
+.img-list {
+    border-radius: 50%;
+    display: block;
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+}
+
+
+.hour {
+    font-weight: bold;
+
+    text-align: center;
+    font-size: 48px;
+    color: #f2f2f2;
+    margin: 72px auto;
+    width: 480px;
+    padding: 24px 24px;
+    background-color: #333;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, .5);
+    line-height: 1;
+}
+
+h2 {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+h2:after {
+    margin: 0 0 0 20px;
+}
+
+
+h2 {
+    margin: 30px 0;
+    font: 700 2em/1.4 'Avenir', sans-serif;
+    color: white;
+}
+
+.rfid {
+
+    width: 100px;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    z-index: -1;
+}
+
+.mt-10 {
+    margin-top: 8rem;
+}
+
+.modal-header {
+    border-bottom-color: rgb(56, 61, 63);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+a.brand:hover{
+    color: #d32f2f;
+    text-decoration: none;
+}
